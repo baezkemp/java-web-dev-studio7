@@ -25,7 +25,7 @@ public class DVD extends BaseDisc {
     @Override
     public void playDisc() {
         if (this.getMediaType().equals("Movie")) {
-            System.out.println("I hope you have your popcorn ready. The " + this.getName() + " movie is from " + this.getCopyrightYear() + " and is " + this.getRuntime() + " minutes long.");
+            System.out.println("I hope you have your popcorn ready. The " + this.getName() + " movie is " + this.age() + " years old and is " + this.getRuntime() + " minutes long.");
         } else {
             System.out.println("Enjoy the show!");
         }
