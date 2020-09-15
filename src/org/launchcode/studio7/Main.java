@@ -6,7 +6,7 @@ public class Main {
 
         // TODO: Declare and initialize a CD and a DVD object.
         BaseDisc myCD = new CD ("Random", 3000, 67, "Music", 2015);
-        BaseDisc myCD2 = new CD ("School Stuff", 3000, 0,"Data", 2010);
+        BaseDisc myCD2 = new CD ("School Stuff", 3000, 0,"Data", 2007);
         BaseDisc myDVD = new DVD ("Nadia", 5, 100, "Movie", 1984);
         BaseDisc myDVD2 = new DVD ("Wedding", 5, 0, "Pictures", 2010);
 
